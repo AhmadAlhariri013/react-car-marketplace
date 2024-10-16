@@ -2,7 +2,7 @@ import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import Home from "./home.jsx";
+
 import { ClerkProvider } from "@clerk/clerk-react";
 import Profile from "./profile";
 import AddListing from "./add-listing";
@@ -10,6 +10,7 @@ import { Toaster } from "./components/ui/sonner";
 import SearchByCategory from "./search/[category]";
 import SearchByOptions from "./search";
 import CarDetails from "./car-details/[id]";
+import Home from "./Home.jsx";
 
 const router = createBrowserRouter([
   {
